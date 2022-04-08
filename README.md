@@ -21,3 +21,15 @@ Copy that part and paste in the console prepending export example:
 ```bash
 $  export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 ```
+
+
+
+
+
+
+
+# Dandelion
+
+1. install cmake and pkg-config ``brew install pkg-config cmake``
+2. install dandelion ``sudo gem install dandelion``
+3. 
