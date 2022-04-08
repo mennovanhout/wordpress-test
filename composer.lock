@@ -1,0 +1,100 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "65164b04cfe50b4912c3df8b88d0d495",
+    "packages": [
+        {
+            "name": "deployer/dist",
+            "version": "v6.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deployphp/distribution.git",
+                "reference": "857158fa5466d5135ce87f07fe67779b6b6a13d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deployphp/distribution/zipball/857158fa5466d5135ce87f07fe67779b6b6a13d2",
+                "reference": "857158fa5466d5135ce87f07fe67779b6b6a13d2",
+                "shasum": ""
+            },
+            "bin": [
+                "dep"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Medvedev",
+                    "email": "anton@medv.io"
+                }
+            ],
+            "description": "Deployer Phar Distribution",
+            "homepage": "https://deployer.org",
+            "support": {
+                "docs": "https://deployer.org/docs",
+                "issues": "https://github.com/deployphp/deployer/issues",
+                "source": "https://github.com/deployphp/deployer"
+            },
+            "abandoned": "deployer/deployer",
+            "time": "2020-04-25T18:48:50+00:00"
+        },
+        {
+            "name": "mixd/packerwp",
+            "version": "v1.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mixd/PackerWP.git",
+                "reference": "dd2321d86b6d998805c5313f059dd0c9b31dd685"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mixd/PackerWP/zipball/dd2321d86b6d998805c5313f059dd0c9b31dd685",
+                "reference": "dd2321d86b6d998805c5313f059dd0c9b31dd685",
+                "shasum": ""
+            },
+            "require": {
+                "deployer/dist": "^6.8",
+                "php": ">=7.3"
+            },
+            "suggest": {
+                "deployer/dist": "Deployer binary to make use of the 'dep' commands",
+                "johnpbloch/wordpress": "Allows you to install WordPress using Composer"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Mixd",
+                    "email": "info@mixd.co.uk",
+                    "homepage": "https://www.mixd.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Deploy a traditional WordPress installation on a target environment using Deployer",
+            "homepage": "https://github.com/Mixd/PackerWP/",
+            "support": {
+                "issues": "https://github.com/Mixd/PackerWP/issues",
+                "source": "https://github.com/Mixd/PackerWP/tree/v1.2.4"
+            },
+            "time": "2022-01-25T16:55:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

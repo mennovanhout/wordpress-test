@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mixd/packerwp": "^1.2"
+    }
+}
