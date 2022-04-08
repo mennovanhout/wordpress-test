@@ -311,7 +311,7 @@ function wp_config_create(
     $path_to_generated_wpconfig = $project_root . 'wordpress/wp-config.php';
 
     // Create the wp-config.php file
-    $cmd = "{{bin/wp}} config create --dbname=\"$db_name\" \
+    $cmd = "echo > \"$project_root\"wordpress/wp-config.php | {{bin/wp}} --path=`\"$project_root\"wordpress/wp-config.php` config create --dbname=\"$db_name\" \
     --dbuser=\"$db_username\" \
     --dbpass=\"$db_password\" \
     --dbhost=\"$db_host\" \
